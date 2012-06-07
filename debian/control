@@ -1,0 +1,23 @@
+Source: restart-services
+Section: utils
+Priority: optional
+Maintainer: Tomas Pospisek <tpo_deb@sourcepole.ch>
+Build-Depends: debhelper (>= 9~),
+               help2man
+Vcs-Git: git://anonscm.debian.org/collab-maint/debian-goodies.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/debian-goodies.git
+Standards-Version: 3.9.4
+
+Package: restart-services
+Architecture: all
+Depends: debian-goodies, debianutils, ${misc:Depends}
+# Dependencies on essential packages: grep, sed, bash
+# Rationale for Depends:
+# debian-goodies -> checkrestart
+# debianutils    -> which
+# grep           -> grep
+# sed            -> sed
+# bash           -> bash
+Description: Restart services that have been updated
+ Restart services uses checkrestart to find out which
+ services have been updated and tries to restart them.
