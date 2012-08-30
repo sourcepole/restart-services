@@ -1,3 +1,12 @@
+restart-services (0.2) unstable; urgency=low
+
+  * drop this check:
+    - "Warning: Number of processes (11) is not equal to number of services (5)"
+    - noise to usefulnes ratio is to high, i.e. there are just too
+      many services that have more than one service running
+
+ -- Tomas Pospisek <tpo_deb@sourcepole.ch>  Thu, 30 Aug 2012 11:36:36 +0200
+
 restart-services (0.1) unstable; urgency=low
 
   * restart-services restarts services as indicated by checkrestart.
