@@ -5,7 +5,8 @@ Maintainer: Tomas Pospisek <tpo_deb@sourcepole.ch>
 Build-Depends: debhelper (>= 9~)
 Vcs-Git: git@github.com:tpo/restart-services.git
 Vcs-Browser: https://github.com/tpo/debian-goodies
-Standards-Version: 3.9.4
+Standards-Version: 4.1.2
+Rules-Requires-Root: no
 
 Package: restart-services
 Architecture: all
