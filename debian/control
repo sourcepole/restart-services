@@ -3,8 +3,8 @@ Section: utils
 Priority: optional
 Maintainer: Tomas Pospisek <tpo_deb@sourcepole.ch>
 Build-Depends: debhelper (>= 9~)
-Vcs-Git: git://anonscm.debian.org/collab-maint/debian-goodies.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/debian-goodies.git
+Vcs-Git: git@github.com:tpo/restart-services.git
+Vcs-Browser: https://github.com/tpo/debian-goodies
 Standards-Version: 3.9.4
 
 Package: restart-services
