@@ -1,0 +1,7 @@
+Restart services uses checkrestart to find out which
+services have been updated and tries to restart them.
+
+To build a restart-services Debian package do:
+
+# apt-get install build-essential 
+$ dpkg-buildpackage -rfakeroot
